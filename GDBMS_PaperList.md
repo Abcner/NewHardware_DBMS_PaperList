@@ -72,3 +72,30 @@
 ## join
 + Relational joins on graphics processors(SIGMOD)
 
+## Database optimization technology based on new storage media
+>### PM DataBase
++  [Oracle 20c](https://docs.oracle.com/en/database/oracle/oracle-database/21/admin/)
+>### Storage architecture optimization
++ NUMA 感知的持久内存存储引擎优化设计(软件学报 2022)
++ FOEDUS: OLTP engine for a thousand cores and NVRAM(sigmod 2015)
++ A NUMA-aware NVM file system design for many core server applications( the 28th Int’l Symp)
++ HiNUMA: NUMA-aware data placement and migration in hybrid memory systems(the IEEE 37th Int’l Conf.)
++ A prolegomenon on OLTP database systems for non-volatile memory(the VLDB Endowment 2014)
++ Finding and fixing performance pathologies in persistent memory software stacks(the ASPLOS 2019)
++ A high performance key-value store for non—volatile memory(2019 IEEE 21st Intemational Conference on High Performance Computing and Communications)
++ Efficient buffer management for PCM-enhanced hybrid memory architecture(the 17th Asia—Pacific Web Conference on Web Technologies and Applications．2015)
++ Page placement in hybrid memory systems.(the 2011 InternationalConference on Supercomputing,2011)
++ Software—managed energy-efficient hybrid DRAM／NVM main memory(the 12th ACM International Conference on Computing Frontiers,2015)
++ A design framework of persistent in memory key value database for NVM(the Non Volatile Memory Systemsand Applications Symposium,2017)
+
+>### Data organization
++ Managing non-volatile memory in database systems(sigmod 2018)
++ A three-tier buffer manager for volatile and non-volatile memory(sigmod 2021)
+>### Join
++ NVM+DRAM 混合内存架构下的连接算法优化(计算机学报 2020)
++ Rethinking database algorithms for phase change memory(CIDR 2011)
++ Write—limited sorts and joins for persistent memory(the VLDB Endowment 2014)
++ 面向非易失性存储器的多表连接写操作的优化研究(计算机学报 2019)
++ Join processing for flash SSDs：Remembering past lessons(the 2009 International Workshop on Data Management on New Hardware)
++ Optimizing nonindexed join processing in flash storage—based systems(IEEE Transactions on Computers，2013)
++ Query processing techniques for solid state drives(sigmod 2009)
